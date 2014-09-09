@@ -1,0 +1,52 @@
+/* hero */
+.hero{
+	background: url("images/Joseph_Johnson_House.jpg") center;
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	 margin: 0 auto;
+	 width: 100%;
+	 min-height: 100%;
+	 padding-bottom: 10em;
+	padding-top: 5em;
+	overflow: hidden;
+}
+
+
+.hero-block {
+    background-color: white;
+    background-color: rgba(255,255,255,0.8);
+    width: 25%;
+    padding: 2em;
+    margin-left: 3em;
+    margin-right: 2em;
+    float: left;
+    height: 10%;
+    box-shadow: 3px 3px 10px 5px #000;
+    text-align: justify;
+    position: relative;
+}
+
+.grid-40 {
+    float: left;
+    width: 30%;
+    /* <IE7> */
+    *width: expression(Math.floor(0.4 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px");
+    /* </IE7> */
+  }
+
+.block-heading {
+    margin: 0;
+    color: #016795;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#signature {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
