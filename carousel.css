@@ -6,6 +6,17 @@
 	overflow: auto;
 }
 
+.flexslider {
+    width: 200px;
+    height: 200px;
+}
+
+.flexslider .slides img {
+    width: 200px;
+    height: 200px;
+}
+
+
 .carousel{
     display: inline-block;
 	width: 45em;
